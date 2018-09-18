@@ -20,4 +20,3 @@ def get_coach(team_page_soup):
     record = contents[17].strip()
 
     return Coach(name, alma_mater, seasons, record)
-
